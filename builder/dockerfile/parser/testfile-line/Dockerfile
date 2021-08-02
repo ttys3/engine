@@ -5,7 +5,7 @@
 FROM brimstone/ubuntu:14.04
 
 
-# TORUN -v /var/run/docker.sock:/var/run/docker.sock
+# TORUN -v /run/podman/podman.sock:/run/podman/podman.sock
 
 
 ENV GOPATH \

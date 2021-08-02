@@ -172,7 +172,7 @@ can take over 15 minutes to complete.
    DEBU[0001] Registering POST, /networks/{id:.*}/connect
    DEBU[0001] Registering POST, /networks/{id:.*}/disconnect
    DEBU[0001] Registering DELETE, /networks/{id:.*}
-   INFO[0001] API listen on /var/run/docker.sock
+   INFO[0001] API listen on /run/podman/podman.sock
    DEBU[0003] containerd connection state change: READY
    ```
 

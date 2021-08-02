@@ -22,9 +22,9 @@ func TestSetHostHeader(t *testing.T) {
 		expectedURLHost string
 	}{
 		{
-			"unix:///var/run/docker.sock",
+			"unix:///tmp/podman.sock",
 			"docker",
-			"/var/run/docker.sock",
+			"/tmp/podman.sock",
 		},
 		{
 			"npipe:////./pipe/docker_engine",
